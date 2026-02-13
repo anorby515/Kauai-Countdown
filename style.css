@@ -96,7 +96,7 @@ body {
   background: linear-gradient(135deg, #34d399, #10b981);
   color: #fff;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: clamp(7.2rem, 18vw, 10.8rem);
+  font-size: clamp(3rem, 10vw, 7rem);
   letter-spacing: 0.12em;
   border-radius: 50px;
   box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
