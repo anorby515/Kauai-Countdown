@@ -93,19 +93,17 @@ body {
   display: inline-block;
   margin-top: 2.5rem;
   padding: 0.6rem 2rem;
-  background: linear-gradient(135deg, #34d399, #10b981);
-  color: #fff;
+  background: none;
+  color: #34d399;
   font-family: 'Bebas Neue', sans-serif;
   font-size: clamp(3rem, 10vw, 7rem);
   letter-spacing: 0.12em;
-  border-radius: 50px;
-  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
-  animation: pulse 2s ease-in-out infinite;
+  text-shadow: 0 4px 20px rgba(16, 185, 129, 0.4);
 }
 
 @keyframes pulse {
-  0%, 100% { box-shadow: 0 4px 20px rgba(16, 185, 129, 0.4); }
-  50% { box-shadow: 0 4px 30px rgba(16, 185, 129, 0.7); }
+  0%, 100% { text-shadow: 0 4px 20px rgba(16, 185, 129, 0.4); }
+  50% { text-shadow: 0 4px 30px rgba(16, 185, 129, 0.7); }
 }
 
 /* Arrived state */
