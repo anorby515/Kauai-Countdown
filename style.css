@@ -111,3 +111,27 @@ body {
 .countdown.arrived .time-value {
   color: #f9a825;
 }
+
+/* Mobile: abbreviated labels + equal-width blocks in one row */
+@media (max-width: 480px) {
+  .countdown {
+    flex-wrap: nowrap;
+    gap: 0.5rem;
+  }
+
+  .time-block {
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 0.8rem 0.4rem;
+    border-radius: 12px;
+  }
+
+  .time-label {
+    font-size: 0;
+  }
+
+  .time-label::after {
+    content: attr(data-short);
+    font-size: 0.75rem;
+  }
+}
