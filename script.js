@@ -16,7 +16,7 @@ function updateCountdown() {
   const diff = TARGET_DATE - now;
 
   if (diff <= 0) {
-    daysEl.textContent = '000';
+    daysEl.textContent = '0';
     hoursEl.textContent = '00';
     minutesEl.textContent = '00';
     secondsEl.textContent = '00';
@@ -29,7 +29,7 @@ function updateCountdown() {
   const minutes = Math.floor((diff / (1000 * 60)) % 60);
   const seconds = Math.floor((diff / 1000) % 60);
 
-  daysEl.textContent = pad(days, 3);
+  daysEl.textContent = String(days);
   hoursEl.textContent = pad(hours, 2);
   minutesEl.textContent = pad(minutes, 2);
   secondsEl.textContent = pad(seconds, 2);
