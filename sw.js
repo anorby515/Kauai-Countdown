@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hike-co-2026-v1';
+const CACHE_NAME = 'spring-break-kauai-2026-v1';
 const ASSETS = [
   './',
   './index.html',

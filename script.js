@@ -1,5 +1,5 @@
-// August 6, 2026 12:00 PM PDT (UTC-7) = August 6, 2026 19:00 UTC
-const TARGET_DATE = new Date('2026-08-06T19:00:00Z');
+// March 11, 2026 1:10 PM HST (UTC-10) = March 11, 2026 23:10 UTC
+const TARGET_DATE = new Date('2026-03-11T23:10:00Z');
 
 const daysEl = document.getElementById('days');
 const hoursEl = document.getElementById('hours');

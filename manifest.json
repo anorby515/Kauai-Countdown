@@ -1,11 +1,11 @@
 {
-  "name": "Hike CO 2026 Countdown",
-  "short_name": "Hike CO 2026",
-  "description": "Countdown to Colorado Hiking Trip - August 6, 2026",
+  "name": "Spring Break Countdown",
+  "short_name": "Kauai 2026",
+  "description": "Spring Break Countdown - Kauai March 11, 2026",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#1a3a2a",
-  "theme_color": "#1a3a2a",
+  "background_color": "#1a2a3a",
+  "theme_color": "#1a2a3a",
   "icons": [
     {
       "src": "icons/icon-192.png",
